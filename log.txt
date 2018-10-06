@@ -1,0 +1,50 @@
+commit 75b0e54e4d06475a72c1cc9ecc087c3e3b30d0b4 (HEAD -> 02, tag: intro-to-the-version-control-system, origin/02)
+Author: Vania Vergun <ivanvergunv2@i.ua>
+Date:   Sat Oct 6 10:34:09 2018 +0300
+
+
+    no message
+
+commit ce1f3894678e206a37674e05285e8928fe1ac23e (origin/master, origin/HEAD, master)
+Author: Vania Vergun <ivanvergunv2@i.ua>
+Date:   Fri Oct 5 21:53:18 2018 +0300
+
+    no message
+
+commit 6aa6ad4a6f75dbccffd7742e66b2924a69d73cd6
+Author: Vania Vergun <ivanvergunv2@i.ua>
+Date:   Fri Oct 5 21:41:58 2018 +0300
+
+    Test
+
+commit 17dddde50eda912577aaaeb2bcee6e0418a7737a
+Author: VaniaV <43702173+VaniaV@users.noreply.github.com>
+Date:   Fri Oct 5 21:29:55 2018 +0300
+
+    Create gitatributes
+
+
+
+commit 7f5e7735815c6c770733bd890ad160757f244a44
+Author: VaniaV <43702173+VaniaV@users.noreply.github.com>
+Date:   Fri Oct 5 00:29:29 2018 +0300
+
+    Create sdfbczx
+
+commit bcd268b05564f4cc8c76e0e1d2bdb971f48f321a
+Author: VaniaV <43702173+VaniaV@users.noreply.github.com>
+Date:   Tue Oct 2 11:37:26 2018 +0300
+
+    Delete README.md
+
+commit 27a362111c7f3b08dfd21585ea20427a210bef82
+Author: VaniaV <43702173+VaniaV@users.noreply.github.com>
+Date:   Mon Oct 1 21:28:46 2018 +0300
+
+    Create .gitignore
+
+commit 25ddaa8b5c3cec0877fa3ce4df0d4a84d0140bd5
+Author: VaniaV <43702173+VaniaV@users.noreply.github.com>
+Date:   Sat Sep 29 16:33:47 2018 +0300
+
+    Initial commit
