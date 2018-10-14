@@ -1,3 +1,6 @@
+import Foundation
+
+
 //task 1
 print("Hello, World!")
 
@@ -11,6 +14,8 @@ let value2: Int = -100
 //4
 //5
 //6
+var dot: Decimal = 10.23534
+print(dot)
 //7
 var symbol: String = "a"
 type(of:symbol)
@@ -30,18 +35,11 @@ var mystring: String = "Hello World. This is Swift programming language"
 mystring.count
 print(mystring.count)
 //2
-mystring.remove(at: mystring.index(mystring.startIndex, offsetBy: 15))
-mystring.remove(at: mystring.index(mystring.startIndex, offsetBy: 17))
-mystring.remove(at: mystring.index(mystring.startIndex, offsetBy: 21))
-mystring.remove(at: mystring.index(mystring.startIndex, offsetBy: 32))
-mystring.insert(contentsOf:"u", at: mystring.index(mystring.startIndex, offsetBy: 15))
-mystring.insert(contentsOf:"u", at: mystring.index(mystring.startIndex, offsetBy: 18))
-mystring.insert(contentsOf:"u", at: mystring.index(mystring.startIndex, offsetBy: 23))
-mystring.insert(contentsOf:"u", at: mystring.index(mystring.startIndex, offsetBy: 35))
+mystring.replacingOccurrences(of: "i", with: "u")
 //3
-mystring.remove(at: mystring.index(mystring.startIndex, offsetBy: 4))
-mystring.remove(at: mystring.index(mystring.startIndex, offsetBy: 7))
-mystring.remove(at: mystring.index(mystring.startIndex, offsetBy: 10))
+mystring.remove(at: mystring.index(mystring.startIndex, offsetBy: 11))
+mystring.remove(at: mystring.index(mystring.startIndex, offsetBy: 8))
+mystring.remove(at: mystring.index(mystring.startIndex, offsetBy: 5))
 //4
 mystring.insert(contentsOf:"(modified)", at: mystring.endIndex)
 //5
@@ -53,14 +51,16 @@ mystring.hasPrefix("Hello")
 //8
 mystring.hasSuffix("world.")
 //9
-mystring.insert(contentsOf:"-", at: mystring.index(mystring.startIndex, offsetBy: 10))
+print(mystring.insert(contentsOf:"-", at: mystring.index(mystring.startIndex, offsetBy: 11)))
 //10
-
+mystring.replacingOccurrences(of: "This is", with: "Thus us")
 //11
-let num10 = mystring.index(mystring.startIndex, offsetBy: 10)
-let num15 = mystring.index(mystring.startIndex, offsetBy: 15)
+var num10 = mystring[mystring.index(mystring.startIndex, offsetBy: 9)]
 print(num10)
+var num15 = mystring[mystring.index(mystring.startIndex, offsetBy: 14)]
 //12
+mystring[mystring.index(mystring.startIndex, offsetBy:9)..<mystring.index(mystring.startIndex, offsetBy:15)]
 
 //task 4
 
+var exsistance: Int? = 10
